@@ -6,7 +6,7 @@ const Purchase = () => {
    
     return (
        <div >
-           <p>Purchase pase</p>
+           <p>Purchase page</p>
        </div>
     );
 };

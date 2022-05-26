@@ -14,10 +14,10 @@ const Project = () => {
           <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
             <div>
                 <a href="https://assignment-10-79d65.web.app/">
-                <div class="card w-96 bg-base-100 shadow-xl image-full">
+                <div className="card w-96 bg-base-100 shadow-xl image-full">
                 <figure><img src={pimg1} alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h2 class="text-center text-2xl">Photography website</h2>
+                <div className="card-body">
+                    <h2 className="text-center text-2xl">Photography website</h2>
                     
                 </div>
                 </div>
@@ -25,10 +25,10 @@ const Project = () => {
             </div>
             <div>
                 <a href="https://epic-dubinsky-6df329.netlify.app/">
-                <div class="card w-96 bg-base-100 shadow-xl image-full">
+                <div className="card w-96 bg-base-100 shadow-xl image-full">
                 <figure><img src={pimg2} alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h2 class="text-center text-2xl">Convention Hall</h2>
+                <div className="card-body">
+                    <h2 className="text-center text-2xl">Convention Hall</h2>
                     
                 </div>
                 </div>
@@ -36,10 +36,10 @@ const Project = () => {
             </div>
             <div>
                 <a href="https://kamrul526628.github.io/assignment-2/">
-                <div class="card w-96 bg-base-100 shadow-xl image-full">
+                <div className="card w-96 bg-base-100 shadow-xl image-full">
                 <figure><img src={pimg3} alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h2 class="text-center text-2xl">Influencer products</h2>
+                <div className="card-body">
+                    <h2 className="text-center text-2xl">Influencer products</h2>
                     
                 </div>
                 </div>

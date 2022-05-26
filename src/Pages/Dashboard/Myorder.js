@@ -8,7 +8,7 @@ const Myorder = () => {
    
     return (
        <div>
-           <p>Orders</p>
+           <p> My Orders</p>
        </div>
            
     );

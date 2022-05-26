@@ -6,7 +6,7 @@ import contact from '../../../assets/images/showcase.svg'
 const Contact = () => {
    
     return (
-       <section>
+       <section className='my-28'>
            <h1 className='text-center text-4xl text-accent pb-6 '>Contact Us</h1>
            <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-10'>
             <div>

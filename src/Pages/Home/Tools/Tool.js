@@ -16,10 +16,11 @@ const Tool = ({tool}) => {
         </figure>
         <div className="card-body items-center text-center">
           <h2 className="card-title">{tool.name}</h2>
-          <p>minimum order quantity: {tool.orderQuantity}</p>
-          <p>available quantity: {tool.availableQuantity}</p>
-          <h4>price: $ {tool.price}</h4>
-          <h4>description: {tool.description}</h4>
+          <h4>Description: {tool.description}</h4>
+          <p>Minimum order quantity: {tool.orderQuantity}</p>
+          <p>Available quantity: {tool.availableQuantity}</p>
+          <h4 className="text-xl">price: $ {tool.price}</h4>
+          
           <div className="card-actions">
             <button onClick={() => navigateToPurchase(_id)} className="btn btn-primary">Buy Now</button>
           </div>
